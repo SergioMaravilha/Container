@@ -7,10 +7,12 @@ sudo apt install upgrade.
 🔧 Comandos Básicos de Docker
 ```
 bash
-docker ps              # Lista containers ativos
-docker ps -a           # Lista todos os containers (ativos e parados)
+docker ps                     # Lista containers ativos
+docker ps -a                  # Lista todos os containers (ativos e parados)
 docker exec -it <nome> bash   # Acessa um container em modo interativo
+
 exemplo: docker exec -it clab-ebpf-lab-node-a
+
 docker stop <nome>     # Para um container
 docker rm <nome>       # Remove um container
 docker logs <nome>     # Mostra logs de um container
@@ -27,7 +29,7 @@ sudo containerlab destroy -t lab.clab.yml  # Remove a topologia
 Dentro do container:
 ```
 bash
-ip addr show           # Lista interfaces e IPs
+ip addr show                       # Lista interfaces e IPs
 ip addr add 10.0.0.1/24 dev eth1   # Adiciona IP a uma interface
 ```
 ⚠️ Erro comum: Device "eth1" does not exist  
