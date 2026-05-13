@@ -74,3 +74,5 @@ Erro 1: Interface inexistente (eth1) → corrigir para interface válida.
 Erro 2: Bridge ausente (br1) → criar manualmente com ip link add.
 Erro 3: Uso de eth0 no YAML → não permitido, usar eth1.
 Demonstração: ping entre nós → captura no Wireshark → análise de ICMP (Request/Reply).
+
+Esse arquivo foi copiado do professor marcioclay
