@@ -1,4 +1,8 @@
+![LinuxUbuntu](https://img.shields.io/badge/Linux-Ubuntu-red)
+
+
 Ao utilizar o Ubuntu, é necessário fazer o update e upgrade.
+
 ```
 sudo apt install update.
 sudo apt install upgrade.
