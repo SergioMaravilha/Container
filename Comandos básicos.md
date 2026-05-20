@@ -1,6 +1,8 @@
 Ao utilizar o Ubuntu, é necessário fazer o update e upgrade.
+```
 sudo apt install update.
 sudo apt install upgrade.
+```
 
 ## 🐳 Comandos e Correções no Containerlab + Docker + Wireshark
 
